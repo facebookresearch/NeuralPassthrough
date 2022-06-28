@@ -1,0 +1,19 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+
+# This source code is licensed under the MIT license found in the
+# LICENSE file in the root directory of this source tree.
+
+name: neuralpassthrough
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.7.8
+  - pytorch=1.10.0
+  - cudatoolkit=11.3
+  - cupy
+  - opencv
+  - matplotlib
+  - scikit-image
+  - opt_einsum
